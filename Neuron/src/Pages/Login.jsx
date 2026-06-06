@@ -15,9 +15,13 @@ const Login = () => {
 
           <form className="form">
             <InputEmail />
-            <InputPassword />
+            <div className="forgot-password">
+              <InputPassword />
+              <a href="#">Esqueci minha senha</a>
+            </div>
             <Btn />
           </form>
+          <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
         </div>
       </div>
     </>
