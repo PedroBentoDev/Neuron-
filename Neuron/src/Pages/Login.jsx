@@ -8,6 +8,7 @@ const Login = () => {
       <div className="container">
         <div className="img-container"></div>
         <div className="form-container">
+        <a href="#">Voltar</a>
           <div className="txt-form">
             <h1>Bem Vindo de Volta!</h1>
             <p>Acesse sua conta e continue evoluindo.</p>
